@@ -265,6 +265,64 @@ div.icon {
 
     /* section- 4 design  */
 
-    .section-4 {
-        clear: both;
+    .section-4-text1 {
+        float: left;
+        width: 50%;
+        padding-left: 9rem;
+        padding-top: 9rem;
+}
+
+    .section-4-image1 {
+        width: 50%;
+        float: left;
     }
+
+    .section-4-image1 img {
+        width: 100%;
+    }
+
+    .section-4-image2 img {
+        width: 100%;
+    }
+    .section-4-image2 {
+        width: 50%;
+        float: left;
+    }
+
+    .section-4-text2 {
+        float: left;
+        width: 50%;
+        padding-left: 9rem;
+        padding-top: 9rem;
+}
+
+    .section-4 h2{
+        font-size: 3.3rem;
+        font-weight: 400;
+        width: 70%;
+        color: #152D20;
+
+    }
+
+    .section-4 p {
+        font-size: 1.5rem;
+        line-height: 2.7rem;
+        font-family: Roboto;
+        font-weight: lighter;
+        width: 70%;
+        color: #152D20;
+    }
+
+    .section-4 button {
+        width: 12rem;
+        background: #152D20;
+        border: none;
+        font-size: 1.8rem;
+        font-family: CormorantGaramond;
+        color: #FCFCFC;
+        text-transform: capitalize;
+        font-weight: lighter;
+        padding: 1rem;
+    }
+
+    
