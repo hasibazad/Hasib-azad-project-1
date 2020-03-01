@@ -324,5 +324,107 @@ div.icon {
         font-weight: lighter;
         padding: 1rem;
     }
+/* ************************* */
+/* footer style */
+footer{
+    clear: both;
+}
 
-    
+footer div.background{
+background: #152D20;
+text-align: center;
+}
+
+footer li, h3, p{
+    color: white;
+
+}
+
+.footer-nav li {
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+footer h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+div.divnav {
+    float: left;
+    margin: 10px;
+    padding: 5rem 0;
+    width: calc(100%/3 - 60px);
+
+}
+
+div.subscribe {
+    float: left;
+    margin: 10px;
+    padding: 5rem 0;
+    width: calc(100%/3 - 60px);
+}
+
+div.contact {
+    float: left;
+    margin: 10px;
+    padding: 5rem 0;
+    width: calc(100%/3 - 60px);
+    text-align: right;
+    margin-left: 8rem;
+}
+
+.footer-nav {
+    text-align: left;
+}
+
+.subscribe input{
+    width: 100%;
+    padding: 1.2rem 2rem;
+    position: relative;
+    left: -8rem;
+    font-size: 1.5rem;
+}
+
+.subscribe button {
+    background: black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    height: 4.5rem;
+    width: 13rem;
+    color: white;
+    border: none;
+    font-family: CormorantGaramond;
+    font-weight: lighter;
+    position: relative;
+    right: -14.6rem;
+    bottom: 4.4rem;
+}
+
+.subscribe p, .contact p {
+    font-size: 1.6rem;
+    font-family: roboto;
+    font-weight: lighter;
+}
+
+.subscribe span {
+    text-transform: capitalize;
+}
+
+div.copyright {
+    background: black;
+}
+
+p.copyright {
+    font-size: 1.5rem;
+    font-family: Roboto;
+    font-weight: lighter;
+    text-transform: capitalize;
+    padding: 2rem;
+    text-align: center;
+    width: 90%;
+    margin: 0;
+}
