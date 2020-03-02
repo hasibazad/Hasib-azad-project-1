@@ -10,7 +10,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 
 
-/* font family - 
+    /* font family - 
 
     font-family: 'Fredericka the Great', ;
 
@@ -21,9 +21,9 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
  */
 
  html {
-     font-size: 62.5%;
-     /* overflow-x: hidden; */
- }
+    font-size: 62.5%;
+    }
+
  .wrapper {
     max-width: 1280px;
     width: 85%;
@@ -31,18 +31,18 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     }
 
  h1,h2 {
-     font-family: 'Fredericka the Great';
+    font-family: 'Fredericka the Great';
     }
 
 
  /* header style */
  header{
-     height: 100vh;
-     width: 100%;
-     background-image: url(animal-land-assets/image-1.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: 100%;
+    height: 100vh;
+    width: 100%;
+    background-image: url(animal-land-assets/image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
 
     }
 
@@ -64,7 +64,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
      color:  #FCFCFC;
      font-size: 2rem;
      float: left;
-     display:block;
+     /* display:block; */
      margin: 20px 20px;
     }
 
@@ -111,6 +111,16 @@ div.icon {
 
 
  nav ul { margin: 0;}
+
+ div.menu {
+     font-size: 5rem;
+    color:#FCFCFC;
+    width: 10%;
+    float: right;
+    display: none;
+    position: relative;
+    bottom: 5rem;
+ }
 
  /* section-1 style start */
 
@@ -168,7 +178,7 @@ div.icon {
         border-radius: 10px;
         transition: .3s all ease;
     }
-
+/* ********************************* */
     /* section-2 style */
 
     .section-2 {
@@ -180,10 +190,8 @@ div.icon {
 
     .section-2-images .image {
         float: left;
-        width: calc(100%/3 - 60px);
-        margin: 10px;
-        padding: 60px 10px;
-        
+        width: calc(100%/3 - 60px/3);
+        margin-right: 30px;
     }
 
     .image img:hover {
@@ -242,35 +250,30 @@ div.icon {
         font-size: 3rem;
         font-weight: lighter;
         padding: 10px 20px;
-
-    }
+        }
 
     .section-3 div.wrapper {
         padding: 20px;
-    }
+        }
 
     .first-icon:hover {
         color: tomato;
-    }
+        }
     .second-icon:hover {
         color: tomato;
     }
     .third-icon:hover {
         color: tomato;
-        
     } 
 
-
-
-
-    /* section- 4 design  */
+        /* section- 4 design  */
 
     .section-4-text1 {
         float: left;
         width: 50%;
         padding-left: 9rem;
         padding-top: 9rem;
-}
+    }
 
     .section-4-image1 {
         width: 50%;
@@ -325,6 +328,7 @@ div.icon {
         padding: 1rem;
     }
 /* ************************* */
+
 /* footer style */
 footer{
     clear: both;
@@ -427,4 +431,111 @@ p.copyright {
     text-align: center;
     width: 90%;
     margin: 0;
+}
+
+/* ******************* */
+
+/* media queries */
+
+@media( max-width: 1328px) {
+    .section-4 h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:1200px ) {
+    .section-2 h2{
+        margin-left: 0;
+        margin-top: 3rem;
+        width: 100%;
+        left: 0;
+    }
+    h1 {
+        font-size: 10rem;
+    }
+
+    .section-4 p {
+        width: 90%;
+    }
+
+    .text1, .text2 {
+        padding-left: 3rem;
+        padding-top: 3rem;
+    } 
+
+    div.divnav {
+        float: none;
+        margin: 10px;
+        padding: 1rem 25rem;
+        width: 100%;
+        height: 5rem;
+    }
+    .footer-nav li {
+        margin: 0 2rem;
+        float: left;
+    }
+
+    div.subscribe{
+        padding: 2rem 0;
+        width: 100%;
+        float: none;
+    }
+    .subscribe input{
+        width: 40%;
+        left: 8rem;
+    }
+    .subscribe button{
+        right: 20rem;
+        bottom: -6rem;
+    }
+    div.contact{
+        float: none;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:1160px){
+    div.section-1-image {
+        float: none;
+        width: 50%;
+        margin: 0 20rem;
+    }
+   div.section-1-image img {
+       padding: 0;
+   }
+
+   div.section-1-text {
+       width: 90%;
+   }
+
+   .section-4-text1{
+       float: none;
+       width: 90%;
+       padding-left: 0;
+       padding-top: 0;
+   }
+   .section-4-image1 {
+       float: none;
+       width: 100%;
+   }
+
+   .section-4-image2 {
+       float: none;
+       width: 100%;
+   }
+
+   .section-4-text2 {
+       float: none;
+       width: 90%;
+       padding-left: 0;
+       padding-top: 0;
+   }
+
+   .section-4 button {
+       margin: 1rem;
+   }
+   
 }
